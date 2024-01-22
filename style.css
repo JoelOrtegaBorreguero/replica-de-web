@@ -338,6 +338,15 @@ button {
 
 @media (min-width: 366px) {
 
+.contenido .item-p {
+    color: white;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+
 .mlogo {
     margin-left: 20px;
     margin-top: 30px;
@@ -403,10 +412,12 @@ button {
     position: relative;
     top: 0;
     bottom: 0;
-    left: 50px;
+    left: 0;
     right: 0;
     margin: auto;
+    width: 80%;
 }
+
 
 .info img {
     width: 50%;
@@ -421,7 +432,7 @@ button {
     top: 100px;
     bottom: 150px;
     left: 1;
-    right: -20px;
+    right: 20px;
     width: 300px;
     height: 200px;
     padding: 15px;
@@ -447,9 +458,9 @@ button {
     margin: auto;
     top: 20px;
     bottom: 1;
-    left: 50px;
+    left: 20px;
     right: 1;
-    width: 512px;
+    width: 312px;
     height: 200px;
     padding: 15px;
     text-align: justify;
@@ -463,12 +474,13 @@ button {
     padding-left: 5px;
     color: #3b3935b3;
     font-size: 0.4em;
+    width: 100%;
 }
 
 .info .compras-2 {
     margin-left: 0px;
     margin-top: 20px;
-    width: 600px;
+    width: 100%;
 }
 
 .info .compras-3 {
@@ -476,17 +488,17 @@ button {
     margin-top: 20px;
     grid-row-start: 4;
     grid-row-end: 4;
-    width: 600px;
+    width: 100%;
 }
 
 .info .compras-4 {
     margin-left: -65px;
     margin-top: 20px;
     padding-top: 20px;
-    padding-right: 250px;
+    padding-right: 0;
     padding-left: 75px;
     font-size: 0.4em;
-    width: 600px;
+    width: 100%;
     color: #3b3935b3;
 }
 
@@ -499,6 +511,13 @@ button {
 
 @media (min-width: 457px) {
 
+.contenido .item-p {
+    color: white;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
 
 
 .contenido {
@@ -577,9 +596,10 @@ button {
     position: relative;
     top: 0;
     bottom: 0;
-    left: 100px;
+    left: 0;
     right: 0;
     margin: auto;
+    width: 80%;
 }
 
 .info img {
@@ -595,7 +615,7 @@ button {
     top: 100px;
     bottom: 150px;
     left: 1;
-    right: -20px;
+    right: 20px;
     width: 300px;
     height: 200px;
     padding: 15px;
@@ -609,7 +629,7 @@ button {
     bottom: 1;
     left: 50px;
     right: 1;
-    width: 512px;
+    width: 312px;
     height: 200px;
     padding: 15px;
     text-align: justify;
@@ -623,12 +643,13 @@ button {
     padding-left: 5px;
     color: #3b3935b3;
     font-size: 0.4em;
+    width: 100%;
 }
 
 .info .compras-2 {
     margin-left: 0px;
     margin-top: 20px;
-    width: 600px;
+    width: 100%;
 }
 
 .info .compras-3 {
@@ -636,17 +657,17 @@ button {
     margin-top: 20px;
     grid-row-start: 4;
     grid-row-end: 4;
-    width: 600px;
+    width: 100%;
 }
 
 .info .compras-4 {
     margin-left: -65px;
     margin-top: 20px;
     padding-top: 20px;
-    padding-right: 250px;
+    padding-right: 0;
     padding-left: 75px;
     font-size: 0.4em;
-    width: 600px;
+    width: 100%;
     color: #3b3935b3;
 }
 
@@ -712,15 +733,6 @@ button {
     display: none;
 }
 
-.info {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    left: 100px;
-    right: 0;
-    margin: auto;
-}
-
 .info img {
     width: 50%;
 
@@ -755,6 +767,17 @@ button {
     font-size: 1em;
 }
 
+
+.info {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+}
+
 .info .compras-1 {
     margin-right: 25px;
     margin-top: 50px;
@@ -780,21 +803,13 @@ button {
 }
 
 .info .compras-4 {
-    margin-left: 25px;
-    margin-top: 50px;
-    padding-top: 20px;
-    color: #3b3935b3;
-    padding-left: 75px;
-    font-size: 0.7em;
-    width: 750px;
-}
-
-.info .compras-4 {
     margin-left: 0px;
     margin-top: 50px;
     padding-top: 20px;
     padding-right: 250px;
     color: #3b3935b3;
+    font-size: 0.7em;
+    width: 100%;
 }
 
 }
@@ -817,9 +832,10 @@ button {
     position: relative;
     top: 0;
     bottom: 0;
-    left: 100px;
+    left: 0;
     right: 0;
     margin: auto;
+    width: 80%;
 }
 
 
@@ -1042,7 +1058,7 @@ padding-left: 15px;
     display: grid;
     grid-template-columns:  1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    width: 1025px;
+    width: 80%;
 }
 
 .info .compras-1 {
@@ -1051,6 +1067,7 @@ padding-left: 15px;
     padding-top: 50px;
     padding-left: 75px;
     color: #3b3935b3;
+    width: 100%;   
 }
 
 .info .compras-1 h3 {
@@ -1060,6 +1077,7 @@ padding-left: 15px;
 .info .compras-2 {
     margin-left: 25px;
     margin-top: 50px;
+    width: 100%;   
 }
 
 .info .compras-3 {
@@ -1067,6 +1085,7 @@ padding-left: 15px;
     margin-top: 50px;
     grid-row-start: 2;
     grid-row-end: 2;
+    width: 100%;   
 }
 
 .info .compras-4 {
