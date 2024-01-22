@@ -1091,10 +1091,11 @@ padding-left: 15px;
 .info .compras-4 {
     margin-left: 25px;
     margin-top: 50px;
-    padding-top: 20px;
-    padding-right: 75px;
+    padding-top: 0;
+    padding-right: 0;
     color: #3b3935b3;
-    width: 100%;   
+    width: 100%;
+    font-size: 0.9em;   
 }
 
 .info .compras-4 h3 {
@@ -1439,7 +1440,8 @@ padding-left: 15px;
     padding-top: 20px;
     padding-right: 75px;
     color: #3b3935b3;
-    width: 100%;   
+    width: 100%;
+    font-size: 1em;      
 }
 
 .info .compras-4 h3 {
